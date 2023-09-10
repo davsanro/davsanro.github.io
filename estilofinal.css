@@ -1,0 +1,134 @@
+.nombre {
+    font-size: 35px;
+    text-decoration: underline;
+ 
+}
+
+*{
+    color: rgb(13, 13, 67); /**  * en este caso aplica el color azul a todos lo elementos que no tengan definido especificamente un color*/
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Roboto', 'Lucida Sans';
+    text-align: justify;
+
+}
+body{
+    margin: 5px;
+    /*background-color: rgb(251, 177, 177);*/
+}
+
+
+#izquierda {
+    border: 2px solid rgb(0, 0, 0);
+
+    background-color: #6b6e84;
+    padding: 10px;
+    margin: 0px
+}
+
+#derecha {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #99939c;
+    padding: 10px;
+    margin: 0px
+}
+
+img {
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+    align-items:center;
+  }
+
+#icon-link {
+    color: rgb(13, 13, 67);
+
+
+}
+
+.fila {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #a6a8b8;
+    padding: 10px;
+    margin: 0px
+}
+
+h3{
+    text-decoration: underline;
+}
+
+h1{
+    text-decoration: underline;
+}
+ 
+#txt{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button{
+    color: blueviolet;
+    font-size: 20px;
+    background-color: #6b6e84;
+}
+
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+
+  enviar{
+    color: blueviolet;
+    font-size: 20px;
+    background-color: #6b6e84;
+  }
+
+#cambiar {
+    font-size: 15px;
+}
+
+ 
